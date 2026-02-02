@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://anpotapovea.github.io/online-shop",
+  "homepage": "https://anpotapovaa.github.io/online-shop",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
