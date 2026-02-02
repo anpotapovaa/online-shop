@@ -1,0 +1,108 @@
+/* Commons.module.css */
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Raleway";
+}
+
+/* Поле ввода */
+.input {
+  border: none;
+  border-bottom: 1px solid rgba(68, 68, 68, 0.2);
+  width: 100%;
+  color: rgba(68, 68, 68, 0.5);
+  outline: none;
+  padding: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+}
+
+/* Кнопка + обёртка */
+.buttonWrapper {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  max-width: 240px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.button {
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  background-color: #000;
+  border: none;
+  padding: 17px 74px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+
+.verticalLine {
+  width: 2px;
+  height: 100%;
+  background: #000;
+}
+
+/* Блок ссылок Find Us */
+.findUs {
+  display: flex;
+  flex-direction: column;
+}
+
+.findUsText {
+  margin-bottom: 20px;
+  color: #000;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 170%;
+}
+
+.findUsLinks {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.findUsLink a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: rgba(68, 68, 68, 1);
+}
+
+.line {
+  border-bottom: 1px solid #444;
+  width: 10px;
+  height: 1px;
+}
+
+.price {
+    display: flex;
+    gap: 15px;
+}
+
+.currentPrice {
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.oldPrice {
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    font-size: 16px;
+    color: rgba(68, 68, 68, 1);
+    text-decoration: line-through;
+}

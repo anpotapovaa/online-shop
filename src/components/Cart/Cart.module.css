@@ -1,0 +1,243 @@
+.cart {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.orderWrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.productList {
+  max-width: 720px;
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgba(0, 0, 0, 1);
+}
+
+.product {
+  display: flex;
+  position: relative;
+  gap: 30px;
+  align-items: center;
+  padding: 0 0 30px 0;
+  border-bottom: 1px solid rgba(68, 68, 68, 10%);
+}
+
+.photo {
+  width: 130px;
+  height: 140px;
+  background-color: rgba(241, 242, 243, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.productInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 100%;
+}
+
+.title {
+  font-family: 'Josefin Sans';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 1);
+}
+
+.priceWrapper {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.priceAndQuantity {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.quantity {
+  background: rgba(241, 242, 243, 1);
+  display: flex;
+  gap: 20px;
+  padding: 17px 23px;
+}
+
+.countButton {
+  cursor: pointer;
+  color: rgba(153, 153, 153, 1);
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 16px;
+}
+
+.count {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+}
+
+.totalPrice {
+  font-family: 'Josefin Sans';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 1);
+}
+
+.close {
+  padding: 3px 7px;
+  border: 1px solid rgba(68, 68, 68, 10%);
+  color: rgba(68, 68, 68, 10%);
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.order {
+  max-width: 360px;
+  width: 100%;
+  padding: 40px;
+  border: 1px solid rgba(68, 68, 68, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.orderTitle {
+  font-family: 'Josefin Sans';
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 1);
+}
+
+.orderPriceWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.priceRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 170%;
+  color: rgba(68, 68, 68, 1);
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(68, 68, 68, 10%);
+}
+
+.delimiter {
+  border-bottom: 2px solid rgba(0, 0, 0, 1);
+}
+
+.nameAddition {
+  font-size: 14px;
+  line-height: 170%;
+}
+
+.priceRowTotal {
+  border-bottom: none;
+}
+
+.nameTotal {
+  font-size: 20px;
+  line-height: 170%;
+  color: rgba(0, 0, 0, 1);
+}
+
+.price {
+  font-family: 'Josefin Sans';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  text-align: right;
+  text-transform: capitalize;
+  color: rgba(68, 68, 68, 1);
+  display: flex;
+  justify-content:space-between;
+  gap: 10px;
+}
+
+.priceTotal {
+  font-size: 25px;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+}
+
+.buttonWrapper {
+  max-width: unset;
+}
+
+.promoCodeWrapper {
+  max-width: 375px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.promoTitle {
+  font-family: 'Josefin Sans';
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 1);
+}
+
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 170%;
+  color: rgba(68, 68, 68, 1);
+}
+
+.promoCode {
+  display: flex;
+  gap: 30px;
+}
+
+.promoButtonWrapper {
+  max-width: 54px;
+}
+
+.promoButton {
+  padding: 17px 15px;
+}
