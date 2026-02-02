@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "test": "vitest",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+     "start": "react-scripts start"
   },
   "dependencies": {
     "react": "^19.1.1",
